@@ -1,0 +1,16 @@
+{
+  "$schema": "../node_modules/@microsoft/spfx-heft-plugins/lib-commonjs/plugins/copilotAgentPlugin/copilot-agent.schema.json",
+  "agents": [
+    {
+      "name": {
+        "default": "copilot-m365-roadmap Agent"
+      },
+      "description": {
+        "default": "copilot-m365-roadmap description"
+      },
+      "components": [
+        "a1b70b9f-40bf-466f-8327-01c8be2239f0"
+      ]
+    }
+  ]
+}

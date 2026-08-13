@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/copilot/plugin/v2.4/schema.json",
+  "schema_version": "v2.4",
+  "namespace": "copilotM365Roadmap",
+  "name_for_human": "copilot-m365-roadmap Agent",
+  "description_for_human": "copilot-m365-roadmap description",
+  "description_for_model": "copilot-m365-roadmap description",
+  "contact_email": "publisher@contoso.com"
+}
