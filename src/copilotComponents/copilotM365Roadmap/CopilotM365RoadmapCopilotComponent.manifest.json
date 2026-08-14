@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-component-manifest.schema.json",
+  "id": "a1b70b9f-40bf-466f-8327-01c8be2239f0",
+  "alias": "CopilotM365RoadmapCopilotComponent",
+  "componentType": "CopilotComponent",
+  "copilotType": "Ux",
+  "version": "*",
+  "manifestVersion": 2,
+
+  "capabilities": {
+    "availableDisplayModes": ["inline", "fullscreen"]
+  },
+
+  "tools": [
+    {
+      "name": "CopilotM365RoadmapTool",
+      "description": {
+        "default": "copilot-m365-roadmap description"
+      },
+      "propertiesSchema": {
+        "id": "$../../../lib/copilotComponents/copilotM365Roadmap/CopilotM365RoadmapCopilotComponentProperties.js:default;"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "copilot-m-365-roadmap-copilot-component": {
+      "components": [
+        {
+          "entrypoint": "./lib/copilotComponents/copilotM365Roadmap/CopilotM365RoadmapCopilotComponent.js",
+          "manifest": "./src/copilotComponents/copilotM365Roadmap/CopilotM365RoadmapCopilotComponent.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CopilotM365RoadmapCopilotComponentStrings": "lib/copilotComponents/copilotM365Roadmap/loc/{locale}.js"
+  }
+}

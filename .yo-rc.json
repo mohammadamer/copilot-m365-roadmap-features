@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": true,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.18.0",
+    "sdksVersions": {},
+    "version": "1.24.0-beta.2",
+    "libraryName": "copilot-m-365-roadmap-features",
+    "libraryId": "721b6a1d-64f3-4903-939f-e84221f203b3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "copilot-m365-roadmap-features",
+    "solutionShortDescription": "copilot-m365-roadmap-features description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "copilotComponent"
+  }
+}
