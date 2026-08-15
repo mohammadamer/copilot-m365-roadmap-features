@@ -1,5 +1,8 @@
 # copilot-m-365-roadmap-features
 
+## Overview
+[![Microsoft 365 roadmap features agent](./assets/copilot-m365-roadmap-features-agent.png)](https://youtu.be/tP7Wm7DnGv0)
+
 ## Summary
 
 Short summary on functionality and used technologies.

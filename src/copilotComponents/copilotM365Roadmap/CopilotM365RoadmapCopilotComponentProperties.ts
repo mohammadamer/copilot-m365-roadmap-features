@@ -12,9 +12,7 @@
 import { z } from 'zod';
 import zodToJsonSchema from 'zod-to-json-schema';
 
-const propertiesSchema = z.object({
-  message: z.string().describe('A message to display.')
-});
+const propertiesSchema = z.object({});
 
 export type ICopilotM365RoadmapCopilotComponentProperties = z.infer<typeof propertiesSchema>;
 
