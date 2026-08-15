@@ -6,28 +6,32 @@ import type {
 
 export interface ICopilotM365RoadmapStrings {
   ExpandButtonLabel: string;
-  OpenSiteButtonLabel: string;
-  FollowUpButtonLabel: string;
-  ResizeButtonLabel: string;
   CompactButtonLabel: string;
-  SiteBadgePrefix: string;
-  ThemeBadgePrefix: string;
-  ModeBadgePrefix: string;
-  GreetingPrefix: string;
-  UnknownTheme: string;
-  DefaultDisplayMode: string;
-  FollowUpMessage: string;
+  SearchPlaceholder: string;
+  SearchAriaLabel: string;
+  ClearSearchButtonLabel: string;
+  StatusFilterLabel: string;
+  ProductFilterLabel: string;
+  AllProductsOptionLabel: string;
+  ResultCountTemplate: string;
+  LoadingMessage: string;
+  ErrorRetryButtonLabel: string;
+  EmptyStateMessage: string;
+  OpenLinkButtonLabel: string;
+  ViewOnRoadmapButtonLabel: string;
+  PublicPreviewDateLabel: string;
+  GeneralAvailabilityDateLabel: string;
+  LastUpdatedLabel: string;
+  PlatformsLabel: string;
+  CloudInstancesLabel: string;
+  ProductsLabel: string;
+  NoValuePlaceholder: string;
+  PaginationPreviousLabel: string;
+  PaginationNextLabel: string;
+  PaginationPageStatusTemplate: string;
 }
 
 export interface ICopilotM365RoadmapProps {
-  /** The message passed as a tool argument from the Copilot host. */
-  message: string;
-  /** User display name fetched from Microsoft Graph /me. */
-  userDisplayName: string;
-  /** Site title fetched from SharePoint REST /_api/web. */
-  siteTitle: string;
-  /** Absolute URL of the current SharePoint site. */
-  siteUrl: string;
   /** Host context (theme, display mode) from the Copilot host. */
   hostContext: ICopilotComponentHostContext;
   /** Bridge to communicate with the Copilot host (public API surface). */

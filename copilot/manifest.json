@@ -31,5 +31,5 @@
     ]
   },
   "permissions": ["identity"],
-  "validDomains": []
+  "validDomains": ["www.microsoft.com"]
 }

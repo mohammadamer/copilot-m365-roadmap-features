@@ -15,7 +15,7 @@
     {
       "name": "CopilotM365RoadmapTool",
       "description": {
-        "default": "copilot-m365-roadmap description"
+        "default": "Browse and search Microsoft 365 roadmap features by status, product, ID, or name."
       },
       "propertiesSchema": {
         "id": "$../../../lib/copilotComponents/copilotM365Roadmap/CopilotM365RoadmapCopilotComponentProperties.js:default;"

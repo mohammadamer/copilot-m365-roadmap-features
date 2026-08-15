@@ -1,21 +1,28 @@
 declare interface ICopilotM365RoadmapCopilotComponentStrings {
   ExpandButtonLabel: string;
-  OpenSiteButtonLabel: string;
-  FollowUpButtonLabel: string;
-  ResizeButtonLabel: string;
   CompactButtonLabel: string;
-  SiteBadgePrefix: string;
-  ThemeBadgePrefix: string;
-  ModeBadgePrefix: string;
-  GreetingPrefix: string;
-  UnknownTheme: string;
-  DefaultDisplayMode: string;
-  FollowUpMessage: string;
-  WelcomeGreeting: string;
-  DisplayModeLabel: string;
-  ThemeLabel: string;
-  MessageLabel: string;
-  ExpandToFullscreenTitle: string;
+  SearchPlaceholder: string;
+  SearchAriaLabel: string;
+  ClearSearchButtonLabel: string;
+  StatusFilterLabel: string;
+  ProductFilterLabel: string;
+  AllProductsOptionLabel: string;
+  ResultCountTemplate: string;
+  LoadingMessage: string;
+  ErrorRetryButtonLabel: string;
+  EmptyStateMessage: string;
+  OpenLinkButtonLabel: string;
+  ViewOnRoadmapButtonLabel: string;
+  PublicPreviewDateLabel: string;
+  GeneralAvailabilityDateLabel: string;
+  LastUpdatedLabel: string;
+  PlatformsLabel: string;
+  CloudInstancesLabel: string;
+  ProductsLabel: string;
+  NoValuePlaceholder: string;
+  PaginationPreviousLabel: string;
+  PaginationNextLabel: string;
+  PaginationPageStatusTemplate: string;
 }
 
 declare module 'CopilotM365RoadmapCopilotComponentStrings' {
